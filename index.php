@@ -34,10 +34,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo '<div id="flexbox-error">Insira um numero</div>';
     } else {
         
-        //echo $x1;
-        //echo $name;
-        //echo $x2;
-        //echo $whatsapp[0]['x1'];
         echo '<div id="flexbox-txt2"><a href="'.$whatsapp[0]['x1'].$name.$x2.$msn.'">ABRIR CONVERSA</a>'. '<br><br></div>';                       
 
     }
